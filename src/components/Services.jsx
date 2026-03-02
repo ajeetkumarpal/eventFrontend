@@ -13,7 +13,7 @@ const services = [
     slug: "weddings-celebrations",
     desc: "Beautiful, stress-free weddings and private celebrations.",
     details:
-      "Our team specializes in designing dream weddings with flawless execution. From venue decoration, catering, entertainment, and photography, we handle everything so you can focus on enjoying your big day stress-free.",
+      "Our team specialize in designing dream weddings with flawless execution. From venue decoration, catering, entertainment, and photography, we handle everything so you can focus on enjoying your big day stress-free.",
     img: service2,
     pageName: "../Wedding",
   },
