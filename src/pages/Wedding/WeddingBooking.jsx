@@ -18,7 +18,7 @@ const WeddingBooking = () => {
       const data = { date, time, guests, amount, eventName: "Wedding Event" };
 
       const response = await axios.post(backendUrl + "/event/wedding", data, {
-        // withCredentials: true,
+        withCredentials: true,
       });
       console.log(response);
       const result = await paymentHandler(amount);

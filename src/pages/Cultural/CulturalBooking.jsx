@@ -27,7 +27,7 @@ const CulturalBooking = () => {
       };
       console.log("data", data);
       const response = await axios.post(backendUrl + "/event/cultural", data, {
-        // withCredentials: true,
+        withCredentials: true,
       });
 
       console.log(response);

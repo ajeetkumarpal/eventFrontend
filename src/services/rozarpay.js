@@ -9,7 +9,7 @@ const paymentHandler = async (amountData) => {
       {
         amountData,
       },
-      { withCredentials: true },
+      
     );
 
     console.log("Backend response:", response.data);

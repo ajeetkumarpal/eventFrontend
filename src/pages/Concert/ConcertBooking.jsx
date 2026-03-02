@@ -34,7 +34,7 @@ const ConcertBooking = () => {
       };
 
       const response = await axios.post(backendUrl + "/event/concert", data, {
-        // withCredentials: true,
+        withCredentials: true,
       });
 
       console.log(response);
