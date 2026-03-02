@@ -22,7 +22,7 @@ const BirthdayBooking = () => {
       };
 
       const response = await axios.post(backendUrl + "/event/birthday", data, {
-        withCredentials: true,
+        // withCredentials: true,
       });
       console.log(response);
       const result = await paymentHandler(amountData);
